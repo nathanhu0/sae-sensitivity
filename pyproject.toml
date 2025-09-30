@@ -1,0 +1,31 @@
+[build-system]
+requires = ["setuptools", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[project]
+name = "sae-code"
+version = "0.1.0"
+requires-python = ">=3.10"
+dependencies = [
+    "sae_bench>=0.4.0",
+    "sae_lens>=5.4.0", 
+    "transformer-lens>=2.0.0",
+    "torch>=2.1.0",
+    "openai>=1.0.0",
+    "pandas>=2.1.2",
+    "numpy>=1.26.4,<2.0",
+    "requests>=2.28.0",
+    "transformers>=4.30.0",
+    "huggingface_hub>=0.16.0",
+    "einops>=0.8.0",
+    "tqdm>=4.66.0",
+    "matplotlib>=3.8.0",
+    "scikit-learn>=1.5.0",
+    "jsonlines>=3.0.0",
+    "nltk>=3.8.0",
+    "ipykernel>=6.29.0",
+    "python-dotenv>=1.0.0",
+]

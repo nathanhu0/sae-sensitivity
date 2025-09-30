@@ -1,0 +1,50 @@
+# Environment
+.env
+.venv/
+venv/
+
+# Claude-specific
+CLAUDE.md
+
+# Data and downloads
+downloaded_saes/
+downloaded_datasets/
+evals/
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+*.egg-info/
+dist/
+build/
+*.egg
+
+# Package manager
+uv.lock
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb
+
+# Logs
+*.log
+
+# Reference files (if temporary)
+ref/
+
+# Shell scripts (if temporary)
+commands.sh
